@@ -32,5 +32,29 @@
   Key: 'happycoding'
   Decrypted Text: 'hello zaira'
 
+
+
+– Card Number Validation + String & Math Logic
+🧠 Learning Focus
+- Implemented the Luhn Algorithm to verify card numbers
+- Explored string manipulation and control flow with digit-level logic
+
+🔍 Core Python Concepts Practiced
+- Input sanitization using str.translate() to clean card format
+- String slicing and reversing ([::-1]) to organize digit processing
+- Loop-based logic to apply mathematical transformations
+- Conditional math for splitting and summing two-digit numbers
+Key Takeaway: The Luhn Algorithm adds odd-position digits directly, while even-position digits are doubled—if the result is ≥10, their digits are summed separately. The final total must be divisible by 10 to pass validation.
+
+💳 Luhn Validator Project
+Goal: Validate credit card numbers using digit manipulation and checksum logic
+Features:
+- verify_card_number() handles algorithm logic
+- Handles non-digit formatting with .translate()
+- Final check outputs 'VALID!' or 'INVALID!' using modulus test
+- Clean function structure supports modular testing
+
+
   ### 📂 Files Added
+- ▶️ Code Demo: [Vigenère Cipher – Day 1](./Vigenere_cipher.py)
 - ▶️ Code Demo: [Vigenère Cipher – Day 1](./Vigenere_cipher.py)
