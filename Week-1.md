@@ -54,6 +54,8 @@ Features:
 - Final check outputs 'VALID!' or 'INVALID!' using modulus test
 - Clean function structure supports modular testing
 
+Card Number: '4111-1111-4555-1142'
+Output: VALID!
 
   ### 📂 Files Added
 - ▶️ Code Demo: [Vigenère Cipher – Day 1](./Vigenere_cipher.py)
