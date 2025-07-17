@@ -57,6 +57,61 @@ Features:
 Card Number: '4111-1111-4555-1142'
 Output: VALID!
 
+
+Absolutely, Daniel! Here's a **Day 2 progress note** in the same clean, Markdown-rich format you used for Day 1. It highlights your continued work in scientific computing and encryption logic, while keeping the tone consistent and organized for your GitHub repo or learning journal:
+
+---
+
+## 📅 Day 2 – Expense Tracker CLI + Filter Logic & Input Validation
+
+### 🧠 Learning Focus
+- Built a **command-line expense tracker** using Python functions and control flow
+- Practiced `map()`, `filter()`, and list manipulation for real-world data handling
+- Explored input validation and user-friendly formatting for CLI apps
+
+---
+
+### 💻 Expense Tracker Project  
+**Goal**: Track personal expenses with category filtering and total calculation via a menu-driven CLI.
+
+**Features:**
+- `add_expense()` stores amount and category in a list of dictionaries
+- `print_expenses()` displays all entries with formatted output
+- `total_expenses()` uses `map()` and `sum()` to calculate totals
+- `filter_expenses_by_category()` returns category-matched expenses using `filter()` and `.lower()` for case-insensitive matching
+- Menu loop supports adding, listing, filtering, and exiting
+
+```python
+Amount: 25.50, Category: Groceries
+Total Expenses: 25.50
+Expenses for Groceries:
+ - $25.50 | Category: Groceries
+```
+
+**Key Takeaway:** `filter()` returns an iterator—convert to `list()` before reuse. Also, `.lower()` improves category matching across inconsistent user input.
+
+---
+
+### 🔍 Core Python Concepts Practiced
+- Functional programming with `map()` and `filter()`
+- Input validation using `try/except` for float conversion
+- String formatting with `f-strings` and `.2f` for currency
+- Case-insensitive comparisons for better UX
+- Modular function design for clean CLI logic
+
+---
+
+### 🛠 Next Steps
+- Add file saving/loading with JSON or CSV
+- Include timestamps for each expense
+- Expand to GUI or web version for broader usability
+
+---
+
+Let me know if you'd like a matching format for Day 3 when you dive into file I/O or start integrating your projects into a portfolio repo!
+
+
   ### 📂 Files Added
 - ▶️ Code Demo: [Vigenère Cipher – Day 1](./Vigenere_cipher.py)
 - ▶️ Code Demo: [Luhn Algorithm – Day 1](./Luhn_Algorithm.py)
+- ▶️ Code Demo: [Expense_Tracker – Day 2](./Expense_Tracker.py)
