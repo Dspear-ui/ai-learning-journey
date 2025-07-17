@@ -58,8 +58,6 @@ Card Number: '4111-1111-4555-1142'
 Output: VALID!
 
 
-Absolutely, Daniel! Here's a **Day 2 progress note** in the same clean, Markdown-rich format you used for Day 1. It highlights your continued work in scientific computing and encryption logic, while keeping the tone consistent and organized for your GitHub repo or learning journal:
-
 ---
 
 ## 📅 Day 2 – Expense Tracker CLI + Filter Logic & Input Validation
@@ -101,14 +99,6 @@ Expenses for Groceries:
 
 ---
 
-### 🛠 Next Steps
-- Add file saving/loading with JSON or CSV
-- Include timestamps for each expense
-- Expand to GUI or web version for broader usability
-
----
-
-Let me know if you'd like a matching format for Day 3 when you dive into file I/O or start integrating your projects into a portfolio repo!
 
 
   ### 📂 Files Added
