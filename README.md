@@ -35,6 +35,7 @@ Big-picture summaries of each learning track or certification.
 - 💳 [Luhn Validator: Credit card number verification](projects/Luhn_Algorithm.py)
 - 💼 [Expense Tracker CLI: Menu-driven app with filtering and totals](projects/Expense_tracker.py)
 - 🐍 [Snake Case Converter: Pascal/camelCase to snake_case](projects/pascal_or_camel_cased_string.py)
+- 🧮 [Bisection Method for Square Root – Day 2](projects/bisection_method_for_square_root.py)  
 
 Each project is built from scratch and documented for clarity and reuse.
 
