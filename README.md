@@ -14,7 +14,7 @@ This repo is organized into three layers of documentation:
 
 ### 🗓️ Daily Logs
 Raw notes from each day — what I built, learned, and struggled with.
-- [Week 1 Daily Log](Week-1-dailylog.md)
+- [Week 1 Daily Log](logs/Week-1-dailylog.md)
 - Week 2 coming soon...
 
 ### 🧾 Weekly Summaries
