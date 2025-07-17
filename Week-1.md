@@ -1,5 +1,6 @@
 ## Week 1 Progress
-## 📅 Day 1 – Cipher Building + Scientific Computing Foundations
+## 📅 Day 1
+-Cipher Building + Scientific Computing Foundations
 
 ### 🧠 Learning Focus
 - Kicked off freeCodeCamp’s **Scientific Computing with Python** certification
@@ -60,7 +61,8 @@ Output: VALID!
 
 ---
 
-## 📅 Day 2 – Expense Tracker CLI + Filter Logic & Input Validation
+## 📅 Day 2 
+– Expense Tracker CLI + Filter Logic & Input Validation
 
 ### 🧠 Learning Focus
 - Built a **command-line expense tracker** using Python functions and control flow
@@ -99,9 +101,44 @@ Expenses for Groceries:
 
 ---
 
+### 🧠 Learning Focus  
+- Practiced **string transformation and list comprehension** for code formatting tasks  
+- Explored character-level logic to convert PascalCase and camelCase to snake_case  
+- Refactored loop-based logic into a compact, readable one-liner using conditional expressions
+
+---
+
+### 💻 Snake Case Converter Project  
+**Goal**: Convert PascalCase or camelCase strings into snake_case format for consistent variable naming.
+
+**Features:**
+- Iterates over each character in the input string
+- Prepends an underscore to uppercase characters and converts them to lowercase
+- Preserves lowercase characters and non-alphabetic symbols
+- Uses list comprehension for clean, efficient transformation
+- Strips leading underscores to match conventional snake_case formatting
+
+```python
+Input: 'IAmAPascalCasedString'
+Output: 'i_am_a_pascal_cased_string'
+```
+
+**Key Takeaway:** Python strings don’t support `.prepend()`, but concatenation (`'_' + char`) achieves the same result. List comprehensions offer a concise alternative to traditional loops for character-level transformations.
+
+---
+
+### 🔍 Core Python Concepts Practiced  
+- List comprehension with inline conditionals  
+- String methods: `.isupper()`, `.lower()`, `.join()`, `.strip()`  
+- Refactoring verbose loops into clean, functional expressions  
+- Building reusable utility functions for code formatting and preprocessing
+
+---
+
 
 
   ### 📂 Files Added
 - ▶️ Code Demo: [Vigenère Cipher – Day 1](./vigenere_cipher.py)
 - ▶️ Code Demo: [Luhn Algorithm – Day 1](./Luhn_Algorithm.py)
 - ▶️ Code Demo: [Expense_Tracker – Day 2](./Expense_tracker.py)
+- ▶️ Code Demo: [pascal_or_camel_cased_string – Day 2](./pascal_or_camel_cased_string.py)
