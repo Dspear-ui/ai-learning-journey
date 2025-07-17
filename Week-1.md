@@ -102,6 +102,6 @@ Expenses for Groceries:
 
 
   ### 📂 Files Added
-- ▶️ Code Demo: [Vigenère Cipher – Day 1](./Vigenere_cipher.py)
+- ▶️ Code Demo: [Vigenère Cipher – Day 1](./vigenere_cipher.py)
 - ▶️ Code Demo: [Luhn Algorithm – Day 1](./Luhn_Algorithm.py)
 - ▶️ Code Demo: [Expense_Tracker – Day 2](./Expense_tracker.py)
