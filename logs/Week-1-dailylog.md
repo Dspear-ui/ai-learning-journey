@@ -133,6 +133,40 @@ Output: 'i_am_a_pascal_cased_string'
 - Refactoring verbose loops into clean, functional expressions  
 - Building reusable utility functions for code formatting and preprocessing
 
+
+---
+
+## 🧠 Learning Focus  
+Practiced control flow and iterative logic using the bisection method to approximate square roots.  
+Explored edge case handling, precision tuning, and mathematical reasoning in Python functions.
+
+---
+
+## 💻 Bisection Method for Square Root Approximation  
+**Project Goal**: Approximate the square root of a non-negative number using the bisection method with a tolerance threshold.
+
+**Features**:
+- Handles invalid input (`square_target < 0`) with `raise ValueError`
+- Returns exact results for `square_target == 0` and `square_target == 1`
+- Uses midpoint logic: `mid = (low + high) / 2`
+- Compares `square_mid = mid ** 2` to `square_target` and adjusts bounds
+- Iterates up to `max_iterations` to converge on root
+- Prints result or failure message based on convergence
+
+**Key Takeaway**:  
+Parentheses in `(low + high) / 2` are essential — without them, Python divides `high` first, skewing the midpoint.  
+Also, `raise` is the correct way to signal invalid input, not `print()`.
+
+---
+
+## 🔍 Core Python Concepts Practiced  
+- Exception handling with `raise ValueError(...)`  
+- Control flow with multiple `if` and `elif` blocks  
+- Iterative approximation using `for _ in range(max_iterations)`  
+- Mathematical precision with `tolerance=1e-7`  
+- Variable naming and debugging (`sqaure_target` typo broke logic silently)  
+- Refactoring logic for clarity and modularity
+
 ---
 
 
@@ -142,3 +176,4 @@ Output: 'i_am_a_pascal_cased_string'
 - ▶️ Code Demo: [Luhn Algorithm – Day 1](./Luhn_Algorithm.py)
 - ▶️ Code Demo: [Expense_Tracker – Day 2](./Expense_tracker.py)
 - ▶️ Code Demo: [pascal_or_camel_cased_string – Day 2](./pascal_or_camel_cased_string.py)
+- ▶️ Code Demo: [bisection_method_for_square_root – Day 2](./bisection_method_for_square_root.py)
