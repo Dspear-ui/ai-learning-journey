@@ -31,10 +31,10 @@ Big-picture summaries of each learning track or certification.
 
 ## 🛠️ Projects So Far
 
-- 🔐 Vigenère Cipher: Modular encryption/decryption
-- 💳 Luhn Validator: Credit card number verification
-- 💼 Expense Tracker CLI: Menu-driven app with filtering and totals
-- 🐍 Snake Case Converter: Pascal/camelCase to snake_case
+- 🔐 [Vigenère Cipher: Modular encryption/decryption](projects/vigenere_cipher.py)
+- 💳 [Luhn Validator: Credit card number verification](projects/Luhn_Algorithm.py)
+- 💼 [Expense Tracker CLI: Menu-driven app with filtering and totals](projects/Expense_tracker.py)
+- 🐍 [Snake Case Converter: Pascal/camelCase to snake_case](projects/pascal_or_camel_cased_string.py)
 
 Each project is built from scratch and documented for clarity and reuse.
 
