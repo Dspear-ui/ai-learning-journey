@@ -172,7 +172,7 @@ Also, `raise` is the correct way to signal invalid input, not `print()`.
 
 
   ### 📂 Files Added
-- ▶️ Code Demo: [Vigenère Cipher – Day 1](.projects/vigenere_cipher.py)
+- ▶️ Code Demo: [Vigenère Cipher – Day 1](..projects/vigenere_cipher.py)
 - ▶️ Code Demo: [Luhn Algorithm – Day 1](./projects/Luhn_Algorithm.py)
 - ▶️ Code Demo: [Expense_Tracker – Day 2](./projects/Expense_tracker.py)
 - ▶️ Code Demo: [pascal_or_camel_cased_string – Day 2](./projects/pascal_or_camel_cased_string.py)
