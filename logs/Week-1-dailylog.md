@@ -169,7 +169,37 @@ Also, `raise` is the correct way to signal invalid input, not `print()`.
 
 ---
 
+## 📅 Days 3–4 – Arithmetic Formatter Refactor + Structure Mismatch Discovery  
+🧠 **Learning Focus**  
+Tackled freeCodeCamp’s *Arithmetic Formatter* project from the Scientific Computing with Python certification. Built a function that formats multiple arithmetic problems vertically and side-by-side with optional answer output and strict alignment rules.
 
+🛠 **Design Approach**  
+Originally broke the project into modular functions for clarity and scalability:
+- `structure_problems()` handled width calculation and formatting
+- `problem_solver()` computed answers only when `show_answers=True`
+- All string alignment was built using `rjust()` and zipped width values
+- Final output was assembled using a clean join strategy with line-specific strings
+
+This design worked exactly as intended in VSCode—returning a correctly formatted multiline string.
+
+🔍 **Challenge Encountered**  
+Despite passing all manual tests, the freeCodeCamp validator rejected the submission. Traced the issue to a **structural mismatch**:  
+> The platform expects all logic to run inside one function named `arithmetic_arranger()` and will not follow modular returns—even if the formatting and output are correct.
+
+My original solution was returning the formatted string from a helper and routing through `arithmetic_arranger()`, but the test suite failed because it was expecting the string to be returned directly from the main function.
+
+✅ **Resolution**  
+Temporarily condensed all logic into a single function block inside `arithmetic_arranger()` for compatibility. The test passed instantly.
+
+However, I’m keeping my original design in the repo because it’s:
+- 🧩 More scalable and readable  
+- 🧰 Easier to debug and extend  
+- 🛠 Structured for real-world use—not just platform expectations
+
+📌 **Key Takeaway**  
+FreeCodeCamp's validator checks function structure, not just output. For platform compatibility, it’s important to match exactly what their test runner expects—even if it compromises best practice. My modular version is the clearer, more efficient implementation and will remain my preferred structure for future projects and portfolio review.
+
+----
 
   ### 📂 Files Added
 - ▶️ Code Demo: [Vigenère Cipher – Day 1](../projects/vigenere_cipher.py)
@@ -177,3 +207,4 @@ Also, `raise` is the correct way to signal invalid input, not `print()`.
 - ▶️ Code Demo: [Expense_Tracker – Day 2](../projects/Expense_tracker.py)
 - ▶️ Code Demo: [pascal_or_camel_cased_string – Day 2](../projects/pascal_or_camel_cased_string.py)
 - ▶️ Code Demo: [bisection_method_for_square_root – Day 2](../projects/bisection_method_for_square_root.py)
+- ▶️ Code Demo: [Vetical output – Day 3-4](../projects/Vetical_output.py)
