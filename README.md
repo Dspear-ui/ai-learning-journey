@@ -19,7 +19,7 @@ Raw notes from each day — what I built, learned, and struggled with.
 
 ### 🧾 Weekly Summaries
 End-of-week reflections with key takeaways and project highlights.
-- [Week 1 Summary] summary in progress...
+- [Week 1 Summary](logs/weeklylog-week-1.md
 
 ### 📘 Module Recaps
 Big-picture summaries of each learning track or certification.
