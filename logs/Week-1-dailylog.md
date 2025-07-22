@@ -244,4 +244,4 @@ Generated password: #A92fdxz!KvYT56c
 - ▶️ Code Demo: [pascal_or_camel_cased_string – Day 2](../projects/pascal_or_camel_cased_string.py)
 - ▶️ Code Demo: [bisection_method_for_square_root – Day 2](../projects/bisection_method_for_square_root.py)
 - ▶️ Code Demo: [Vetical output – Day 3-4](../projects/Vetical_output.py)
--  ▶️ Code Demo: [Password Generator – Day 5(../projects/password_gen.py)
+-  ▶️ Code Demo: [Password Generator – Day 5](../projects/password_gen.py)
