@@ -201,6 +201,42 @@ FreeCodeCamp's validator checks function structure, not just output. For platfor
 
 ----
 
+## 🧪 Day 5 – Secure Password Generator + Regex Validation Logic
+
+🧠 **Learning Focus**  
+Built a flexible password generator that enforces complexity requirements using Python’s `secrets` and `re` modules. Focused on cryptographic randomness, dynamic constraint validation, and efficient looping.
+
+🔐 **Project Overview**  
+**Goal**: Generate secure passwords with customizable character requirements.
+
+**Core Features:**
+- Function `generate_password()` accepts parameters for password length and character types:
+  - `nums`, `special_chars`, `uppercase`, `lowercase`
+- Uses `secrets.choice()` for cryptographic strength
+- Validates password using regex patterns:
+  - Digits: `\d`
+  - Special characters: `[string.punctuation]`
+  - Uppercase letters: `[A-Z]`
+  - Lowercase letters: `[a-z]`
+- Regenerates until all constraints are satisfied
+
+🔍 **Key Takeaway**  
+Regex validation (`re.findall()`) combined with a looped generator ensures constraints are reliably met without sacrificing randomness. `secrets` is the preferred module over `random` for secure operations.
+
+💻 **Core Python Concepts Practiced**
+- Dynamic string assembly with `secrets.choice()`
+- Regex constraint enforcement using variable patterns and `fr''` syntax
+- Control flow with `while True` and `break`
+- Modular function design with scalable parameters
+
+🧾 **Output Example**
+```bash
+Generated password: #A92fdxz!KvYT56c
+```
+
+---
+
+
   ### 📂 Files Added
 - ▶️ Code Demo: [Vigenère Cipher – Day 1](../projects/vigenere_cipher.py)
 - ▶️ Code Demo: [Luhn Algorithm – Day 1](../projects/Luhn_Algorithm.py)
